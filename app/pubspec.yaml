@@ -1,0 +1,37 @@
+name: nav_assistant
+description: Navigation Assistant — bridges Google Maps to ESP32-C3 via BLE
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # BLE
+  flutter_reactive_ble: ^5.3.1
+
+  # Notification listener (reads Google Maps nav notifications)
+  flutter_notification_listener: 1.4.0
+
+  # Permissions
+  permission_handler: ^11.3.0
+
+  # State management
+  provider: ^6.1.2
+
+  # Persistent settings
+  shared_preferences: ^2.2.3
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
