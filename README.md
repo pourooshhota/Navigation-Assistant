@@ -28,7 +28,6 @@ Google Maps → Android Notification → Flutter App → BLE → ESP32-C3 → OL
 |-----------|---------|
 | Microcontroller | ESP32-C3 Dev Module |
 | Display | SSD1306 128×64 OLED (I2C) |
-| Button | Tactile push button |
 | Speaker | Passive buzzer (optional) |
 | Power | USB or LiPo battery |
 
@@ -43,7 +42,6 @@ Google Maps → Android Notification → Flutter App → BLE → ESP32-C3 → OL
 
 | Component | ESP32-C3 |
 |-----------|----------|
-| Button    | GPIO 2   |
 | Speaker + | GPIO 3   |
 
 ---
@@ -51,8 +49,8 @@ Google Maps → Android Notification → Flutter App → BLE → ESP32-C3 → OL
 ## Firmware Setup
 
 ### Requirements
-- Arduino IDE 2.x
-- ESP32 board package by Espressif (v3.x)
+- Arduino IDE 
+- ESP32 board package by Espressif 
 - U8g2 library by oliver
 
 ### Install
