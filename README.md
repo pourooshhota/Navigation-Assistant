@@ -1,6 +1,6 @@
 # Navigation Assistant
 
-A compact wearable navigation system built with an ESP32-C3 and a custom Android app. Displays real-time Google Maps turn-by-turn directions on an OLED screen over Bluetooth Low Energy.
+A compact navigation system built with an ESP32-C3 and a custom Android app. Displays real-time Google Maps turn-by-turn directions on an OLED screen over Bluetooth Low Energy.
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-ESP32--C3-blue)
